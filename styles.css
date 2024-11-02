@@ -6,4 +6,19 @@
 
 body {
     font-family: "Athiti", sans-serif;
+    background: #F7F7FB;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    height: 500px;
+    margin: 2rem auto;
+    padding: 60px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
