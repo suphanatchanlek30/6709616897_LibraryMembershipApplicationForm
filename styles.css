@@ -22,3 +22,18 @@ body {
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/* Header Start */
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* ระยะห่างระหว่าง items */
+}
+.header h1 {
+    text-align: center;
+}
+
+.header p {
+    text-align: center;
+}
+/* Header End */
