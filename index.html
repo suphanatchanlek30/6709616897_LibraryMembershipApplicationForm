@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library Membership Application Form</title>
-    <!-- Link to CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- Link to Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>แบบฟอร์มสมัครสมาชิกห้องสมุด</h1>
-            <p>กรุณากรอกแบบฟอร์มสมัครสมาชิกห้องสมุด <br>ตรวจสอบให้แน่ใจว่าสามารถให้ข้อมูลรายละเอียดตามได้ความจำเป็น</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Library Membership Application Form</title>
+        <!-- Link to CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Link to Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="" alt="">
+                <h1>แบบฟอร์มสมัครสมาชิกห้องสมุด</h1>
+                <p>กรุณากรอกแบบฟอร์มสมัครสมาชิกห้องสมุด<br>ตรวจสอบให้แน่ใจว่าสามารถให้ข้อมูลรายละเอียดตามได้ความจำเป็น</p>
+            </div>
+            <form id="libraryForm">
+                <!-- ข้อมูลส่วนตัว -->
+                <section class="form_section">
+                    <!-- ชือ นามสกุล ไทย -->
+                    <div class="form_group_thai">
+                        <!-- ชือ ไทย -->
+                        <div class="firstname_thai">
+                            <label for="firstname_thai">ชื่อ (ภาษาไทย) <span class="required">*</span></label>
+                            <input type="text" id="firstname_thai" placeholder="ชื่อ (ภาษาไทย)">
+                        </div>
+
+                        <!-- นามสกุล ไทย -->
+                        <div class="lastname_thai">
+                            <label for="lastname_thai">นามสกุล (ภาษาไทย) <span class="required">*</span></label>
+                            <input type="text" id="lastname_thai" placeholder="นามสกุุล (ภาษาไทย)">
+                        </div>
+                    </div>
+                </section>
+            </form>
         </div>
-        
-    </div>
-</body>
+    </body>
 </html>
