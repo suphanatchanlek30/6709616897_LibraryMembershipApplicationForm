@@ -438,5 +438,40 @@ body {
 }
 /* receive_news_group End */
 
+/* button_submit_group Start */
+.button_submit_group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button_submit_group button {
+    background-color: #dc1111;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Athiti", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button_submit_group button:hover {
+    background-color: #af1010;
+    transform: translateY(-2px);
+}
+
+.button_submit_group button:active {
+    background-color: #ffffff;
+    transform: translateY(0);
+}
+
+.button_submit {
+    width: 400px;
+}
+/* button_submit_group End */
+
 /* form_section End */
 /* libraryForm End */
