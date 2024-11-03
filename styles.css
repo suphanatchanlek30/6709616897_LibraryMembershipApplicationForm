@@ -367,5 +367,35 @@ body {
 }
 /* gender_group End */
 
+/* book_Type_like_group Start */
+.book_Type_like_group {
+    margin-top: 1rem;
+}
+
+.book_Type_like_group label {
+    font-weight: 600;
+    color: #121826;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.book_Type_like {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.book_Type_like label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #555963;
+}
+
+.book_Type_like input[type="checkbox"] {
+    margin-right: 5px;
+}
+/* book_Type_like_group End */
+
 /* form_section End */
 /* libraryForm End */
