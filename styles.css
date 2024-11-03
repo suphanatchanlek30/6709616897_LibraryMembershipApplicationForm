@@ -338,5 +338,34 @@ body {
 }
 /* birthdate_group End */
 
+/* gender_group Start */
+.gender_group {
+    margin-top: 1rem;
+}
+
+.gender_group label {
+    font-weight: 600;
+    color: #121826;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.gender_options {
+    display: flex;
+    gap: 20px;
+}
+
+.gender_options label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #42454b;
+}
+
+.gender_options input[type="radio"] {
+    margin-right: 5px;
+}
+/* gender_group End */
+
 /* form_section End */
 /* libraryForm End */
