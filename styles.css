@@ -247,5 +247,55 @@ body {
 }
 /* faculty_group End */
 
+/* email_group Start */
+.email_group {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 1rem;
+}
+
+.email label {
+    margin-left: 5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    position: relative;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #121826;
+}
+
+.email {
+    width: 180px;
+    height: auto;
+}
+
+.required {
+    color: #FF0000;
+    font-size: 16px;
+}
+
+.email input[type="email"] {
+    padding: 10px;
+    width: 410px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #555963;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.email input[type="email"]:focus {
+    border-color: #a0a5ae;
+    outline: none;
+}
+
+.email input[type="email"]::placeholder {
+    font-family: "Athiti", sans-serif;
+    color: #A0A0A0;
+    font-size: 16px;
+}
+/* email_group End */
+
 /* form_section End */
 /* libraryForm End */
