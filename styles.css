@@ -61,7 +61,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .form_group_thai label {
@@ -475,3 +475,585 @@ body {
 
 /* form_section End */
 /* libraryForm End */
+
+/* Responsive Design Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Athiti", sans-serif;
+    background: #F7F7FB;
+    height: 100vh;
+    display: flex;
+    align-items: start !important;
+    justify-content: start;
+}
+
+.container {
+    max-width: 800px;
+    height: auto;
+    margin: 2rem auto;
+    padding: 60px;
+    padding-top: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Start */
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* ระยะห่างระหว่าง items */
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.header p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+/* Header End */
+
+/* libraryForm Start */
+/* form_section Start */
+
+/* form_group_thai Start */
+.form_group_thai {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 1.5rem;
+}
+
+.form_group_thai label {
+    margin-left: 5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    position: relative;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #121826;
+}
+
+.firstname_thai,
+.lastname_thai {
+    width: 180px;
+    height: auto;
+}
+
+.required {
+    color: #FF0000;
+    font-size: 16px;
+}
+
+.firstname_thai input[type="text"],
+.lastname_thai input[type="text"] {
+    padding: 10px;
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #555963;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.firstname_thai input[type="text"]:focus,
+.lastname_thai input[type="text"]:focus {
+    border-color: #a0a5ae;
+    outline: none;
+}
+
+.firstname_thai input[type="text"]::placeholder,
+.lastname_thai input[type="text"]::placeholder {
+    font-family: "Athiti", sans-serif;
+    color: #A0A0A0;
+    font-size: 16px;
+}
+/* form_group_thai End */
+
+/* form_group_english Start */
+.form_group_english {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 1rem;
+}
+
+.form_group_english label {
+    margin-left: 5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    position: relative;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #121826;
+}
+
+.firstname_english,
+.lastname_english {
+    width: 180px;
+    height: auto;
+}
+
+.required {
+    color: #FF0000;
+    font-size: 16px;
+}
+
+.firstname_english input[type="text"],
+.lastname_english input[type="text"] {
+    padding: 10px;
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #555963;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.firstname_english input[type="text"]:focus,
+.lastname_english input[type="text"]:focus {
+    border-color: #a0a5ae;
+    outline: none;
+}
+
+.firstname_english input[type="text"]::placeholder,
+.lastname_english input[type="text"]::placeholder {
+    font-family: "Athiti", sans-serif;
+    color: #A0A0A0;
+    font-size: 16px;
+}
+/* form_group_english End */
+
+/* student_Id_group Start */
+.student_Id_group {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 1rem;
+}
+
+.student_Id_group label {
+    margin-left: 5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    position: relative;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #121826;
+}
+
+.student_Id {
+    width: 180px;
+    height: auto;
+}
+
+.required {
+    color: #FF0000;
+    font-size: 16px;
+}
+
+.student_Id input[type="text"] {
+    padding: 10px;
+    width: 410px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #555963;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student_Id input[type="text"]:focus {
+    border-color: #a0a5ae;
+    outline: none;
+}
+
+.student_Id input[type="text"]::placeholder {
+    font-family: "Athiti", sans-serif;
+    color: #A0A0A0;
+    font-size: 16px;
+}
+/* student_Id_group End */
+
+/* faculty_group Start */
+.faculty_group {
+    margin-top: 1rem;
+}
+
+.faculty label {
+    display: block;
+    margin-left: 5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #121826;
+}
+
+.faculty select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #555963;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    appearance: none; /* ซ่อนลูกศร dropdown เริ่มต้น */
+    background-color: #fff;
+}
+
+.faculty select:focus {
+    border-color: #a0a5ae;
+    outline: none;
+}
+/* faculty_group End */
+
+/* email_group Start */
+.email_group {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 1rem;
+}
+
+.email label {
+    margin-left: 5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    position: relative;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #121826;
+}
+
+.email {
+    width: 180px;
+    height: auto;
+}
+
+.required {
+    color: #FF0000;
+    font-size: 16px;
+}
+
+.email input[type="email"] {
+    padding: 10px;
+    width: 410px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #555963;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.email input[type="email"]:focus {
+    border-color: #a0a5ae;
+    outline: none;
+}
+
+.email input[type="email"]::placeholder {
+    font-family: "Athiti", sans-serif;
+    color: #A0A0A0;
+    font-size: 16px;
+}
+/* email_group End */
+
+/* birthdate_group Start */
+.birthdate_group {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 1rem;
+}
+
+.birthdate label {
+    display: block;
+    margin-left: 5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #121826;
+}
+
+.birthdate input[type="date"] {
+    padding: 10px;
+    width: 410px;
+    max-width: 410px; /* กำหนดความกว้างสูงสุด */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #555963;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "Athiti", sans-serif;
+    background-color: #fff;
+}
+
+.birthdate input[type="date"]:focus {
+    border-color: #a0a5ae;
+    outline: none;
+}
+
+.required {
+    color: #FF0000;
+    font-size: 16px;
+}
+/* birthdate_group End */
+
+/* gender_group Start */
+.gender_group {
+    margin-top: 1rem;
+}
+
+.gender_group label {
+    font-weight: 600;
+    color: #121826;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.gender_options {
+    display: flex;
+    gap: 20px;
+}
+
+.gender_options label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #42454b;
+}
+
+.gender_options input[type="radio"] {
+    margin-right: 5px;
+}
+/* gender_group End */
+
+/* book_Type_like_group Start */
+.book_Type_like_group {
+    margin-top: 1rem;
+}
+
+.book_Type_like_group label {
+    font-weight: 600;
+    color: #121826;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.book_Type_like {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.book_Type_like label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #42454b;
+}
+
+.book_Type_like input[type="checkbox"] {
+    margin-right: 5px;
+}
+/* book_Type_like_group End */
+
+/* receive_news_group Start */
+.receive_news_group {
+    margin: 20px 0;
+    font-family: "Athiti", sans-serif;
+}
+
+.receive_news_group label {
+    font-weight: 600;
+    color: #121826;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.receive_news_group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.receive_news_group input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: #007BFF; 
+}
+
+.receive_news {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 1rem;
+}
+
+.receive_news label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #42454b;
+}
+
+.receive_news input[type="checkbox"] {
+    margin-right: 5px;
+}
+/* receive_news_group End */
+
+/* button_submit_group Start */
+.button_submit_group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button_submit_group button {
+    background-color: #dc1111;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Athiti", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button_submit_group button:hover {
+    background-color: #af1010;
+    transform: translateY(-2px);
+}
+
+.button_submit_group button:active {
+    background-color: #ffffff;
+    transform: translateY(0);
+}
+
+.button_submit {
+    width: 400px;
+}
+/* button_submit_group End */
+
+/* form_section End */
+/* libraryForm End */
+
+/* Responsive Design Start */
+@media (max-width: 360px) {
+    .container {
+        margin: 0.5rem;
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header p {
+        font-size: 12px;
+    }
+
+    /* ปรับขนาดฟอนต์สำหรับ label */
+    label {
+        font-size: 14px;
+    }
+
+    input::placeholder {
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 1rem;
+        padding: 20px;
+        width: 100%;
+    }
+
+    /* ปรับขนาดส่วนหัว */
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header p {
+        font-size: 14px;
+    }
+
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* ปรับ layout ของฟอร์มกรอกชื่อ */
+    .form_group_thai,
+    .form_group_english {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .firstname_thai,
+    .lastname_thai,
+    .firstname_english,
+    .lastname_english {
+        width: 100%;
+    }
+
+    .firstname_thai input[type="text"],
+    .lastname_thai input[type="text"],
+    .firstname_english input[type="text"],
+    .lastname_english input[type="text"] {
+        width: 100%;
+    }
+
+    /* ปรับความกว้างของฟิลด์อื่นๆ */
+    .student_Id input[type="text"],
+    .email input[type="email"],
+    .birthdate input[type="date"] {
+        width: 100%;
+    }
+
+    /* ปรับ layout ของ checkbox และ radio */
+    .book_Type_like {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .gender_options,
+    .receive_news {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* ปรับขนาดปุ่ม submit */
+    .button_submit {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+/* Responsive Design End */
+
+/* Responsive Design End */
