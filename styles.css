@@ -15,7 +15,7 @@ body {
 
 .container {
     max-width: 800px;
-    height: 500px;
+    height: auto;
     margin: 2rem auto;
     padding: 60px;
     padding-top: 30px;
@@ -110,6 +110,60 @@ body {
 }
 /* form_group_thai End */
 
+/* form_group_english Start */
+.form_group_english {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 1rem;
+}
+
+.form_group_english label {
+    margin-left: 5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    position: relative;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #121826;
+}
+
+.firstname_english,
+.lastname_english {
+    width: 180px;
+    height: auto;
+}
+
+.required {
+    color: #FF0000;
+    font-size: 16px;
+}
+
+.firstname_english input[type="text"],
+.lastname_english input[type="text"] {
+    padding: 10px;
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #555963;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.firstname_english input[type="text"]:focus,
+.lastname_english input[type="text"]:focus {
+    border-color: #a0a5ae;
+    outline: none;
+}
+
+.firstname_english input[type="text"]::placeholder,
+.lastname_english input[type="text"]::placeholder {
+    font-family: "Athiti", sans-serif;
+    color: #A0A0A0;
+    font-size: 16px;
+}
+/* form_group_english End */
 
 /* form_section End */
 /* libraryForm End */
